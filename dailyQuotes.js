@@ -12,7 +12,6 @@ module.exports = [
   "Blessed be thy fury",
   "I speak with tongues of flame",
   "Smite all who oppose the Emperor",
-  "The shieldw of faith is your best protection",
   "Honour thy oaths, honour thy Emperor",
   "Carry your scars with honour",
   "The wise learn from the deaths of others",
@@ -25,5 +24,17 @@ module.exports = [
   "From duty and death there can be no respite",
   "Heed the Word of the Emperor",
   "The victor lives in honour; the vanquished dies in shame",
-  "Life is the Emperor's currency, spend it well"
+  "Life is the Emperor's currency, spend it well",
+  "Aim without mercy",
+  "Become vengeance",
+  "Thou shalt kill",
+  "Imperialis Dominatus",
+  "In all things, serve the Emperor",
+  "Death comes for us all",
+  "Your honour is your life. Let none dispute it",
+  "Without fear or falter, do thy duty",
+  "Abhorrence is a gift; use it well",
+  "The Emperor commands, the Astra Militarum obeys",
+  "Foolish are those who fear nothing, yet claim to know everything",
+  "Brave are they who know everything yet fear nothing"
 ]

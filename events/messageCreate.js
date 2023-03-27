@@ -10,15 +10,17 @@ module.exports = {
     switch (true) {
       // if bot, don't read message
       case message.author.bot:
-        return;
+        break;
+        
       // if message matches
-      case responses[message.content.toLowerCase()]:
+      case message.content.toLowerCase() in responses:
         message.reply(responses[message.content.toLowerCase()]);
         break;
+        
       // if message begins with a . denotes a wiki search
       case message.content.charAt(0) === '.':
         const searchTerm = message.content.slice(1);
-
+        console.log(searchTerm)
         wiki.getSearchSummary(searchTerm)
           .then(summary => {
             const pages = paginate.paginate(summary, 1000);

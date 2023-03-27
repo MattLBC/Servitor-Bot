@@ -38,7 +38,7 @@ for (const file of eventFiles) {
 
 client.login(process.env.TOKEN)
 
-cron.schedule('0 8,20 * * *', () => {
+cron.schedule('0 7,19 * * *', () => {
   const chan = client.channels.cache.get(`${process.env.testChannelId}`);
   const num = Math.floor(Math.random() * dailyQuotes.length)
   chan.send(dailyQuotes[num])
